@@ -9,7 +9,7 @@ for key,value in dict_data.items():
     print(f"Key: {key}, Value: {value}")
 
 # Using range() in for loop
-for i in range(5):
+for i in range(6):
     print(f"Current index: {i}")
 
 # Nested for loop
