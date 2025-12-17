@@ -12,3 +12,4 @@ for num in nums:
 
 print("The largest number is:", first_largest)
 print("The second largest number is:", second_largest)
+print("The smallest number is:", min(nums))
