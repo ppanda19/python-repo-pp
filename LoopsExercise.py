@@ -10,4 +10,5 @@ for num in nums:
     elif num > second_largest and num != first_largest:
         second_largest = num
 
-print ("The second largest number is:", second_largest)
+print("The largest number is:", first_largest)
+print("The second largest number is:", second_largest)
