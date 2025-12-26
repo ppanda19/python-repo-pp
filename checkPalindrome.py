@@ -31,3 +31,20 @@ def findSumIndicies(inputList,target):
 print(f"Sum OF Indicies:{inputList} ->",findSumIndicies(inputList,target))
 inputList = [1,3,4,5]
 print(f"Sum OF Indicies::{inputList} ->",findSumIndicies(inputList,target))
+
+def findRepeatingChar(inputList):
+  strList = list(inputList)
+  i=0
+  
+  for i in range(len(inputList)):
+    j=i+1
+    while (len(inputList)-1 >= j):
+      if strList[i] == strList[j]:
+        return strList[i]
+      j += 1
+  
+  
+inputList="swis"
+print("RUNNING FILE:", __file__)
+print("Reapting")
+print(f"First repeating Char in : {inputList}",findRepeatingChar(inputList))
